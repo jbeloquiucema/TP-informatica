@@ -1,9 +1,9 @@
 {
-    "game_code": 12345,
-    "name": "Minecraft",
-    "num_players": 2,
-    "price": 12000,
-    "min_age": 12,
-    "category": "Adventures",
-    "platform": "PC"
+    "remera_code": 12345,
+    "color": "Celeste",
+    "tamaño_letra": 3,
+    "price": 1200,
+    "cantidad": 10,
+    "frase": "Que miras bobo",
+    "talle": "XL"
 }
