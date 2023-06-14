@@ -33,7 +33,7 @@ def delete_remera(remera_code):
 def get_by_id(remera_code):
     db = get_db()
     cursor = db.cursor()
-    statement = "SELECT remera_code, color, tamalo_letra, price, cantidad, frase, talle FROM remeras \
+    statement = "SELECT remera_code, color, tamaño_letra, price, cantidad, frase, talle FROM remeras \
     WHERE remera_code = ?"
     cursor.execute(statement, [remera_code])
     single_remera = cursor.fetchone()
