@@ -1,4 +1,4 @@
-from db_games import get_db
+from db_remeras import get_db
 from clase_remeras import Remera
 
 
