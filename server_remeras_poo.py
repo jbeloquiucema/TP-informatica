@@ -29,7 +29,7 @@ def insert_remera():
     return jsonify(result)
 
 
-@app.route("/game/modify", methods=["PUT"])
+@app.route("/remera/modify", methods=["PUT"])
 def update_remera():
     remera_details = request.get_json()
     remera_code = remera_details["remera_code"]
