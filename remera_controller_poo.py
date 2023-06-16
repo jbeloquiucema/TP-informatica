@@ -45,7 +45,7 @@ def get_by_id(remera_code):
     frase = single_remera[5]
     talle = single_remera[6]
     remera = Remera (remera_code, color, tamaño_letra, price, cantidad, frase, talle) 
-    return game.serialize_details()
+    return remera.serialize_details()
 
 
 def get_remeras():
